@@ -1,0 +1,14 @@
+.card{
+    width: 150px;height: 200px;
+    background:#30b9e2;
+    border-radius: 4px;
+    transform:
+    rotate(20deg) skew(-10deg, -5deg);
+    transition: box-shadow .25s ease-in;
+}
+.card:hover{
+    box-shadow:
+    rgba(255,255,255, 0.5) 5px 3p,
+    rgba(255,255,255, 0.4) 10px 6px,
+    rgba(255,255,255, 0.3) 15px 9px;
+}

@@ -1,0 +1,22 @@
+.card{
+    width: 150px;height: 200px;
+    background: #243636;
+    border-radius: 4px;
+    transition: 
+    box-shadow .5s,
+    transform .25s;
+}
+.card:hover{
+    box-shadow: 
+    5px 3px 
+    rgba(255, 255, 255, .05),
+    10px 6px
+    rgba(255, 255, 255, .04),
+    15px 9pxrgba(255,255,255, .03);
+    transform: 
+    rotate(20deg)
+    skew(-10deg, -5deg);
+    transition: 
+    box-shadow .75s,
+    transform .375s;
+}

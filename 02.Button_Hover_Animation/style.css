@@ -1,0 +1,36 @@
+.button{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 24px;
+    color: #26c3d8;
+    border: 1px solid #22b8d3;
+    overflow: hidden; position: relative;
+    transition: color .5s .25s;
+}
+.button::before,
+.button::after{
+    content: '';
+    position: absolute;
+    top: 0;width: 50%;height: 100%;
+    background-color: #7ac9a8;
+    z-index: -1;
+    transform: scaleX(0);
+    transition: transform .5s
+    cubic-bezier(.785, .135, .15, .86);
+}
+.button::before{
+    left: 0;
+    transform-origin: left;
+}
+.button::after{
+    right: 0;
+    transform-origin: right;
+}
+.button:hover::before,
+.button:hover::after{
+    transform: scaleX(1);
+}
+.button:hover{
+    color: #B689C0;
+    transition-delay: 5s;
+}

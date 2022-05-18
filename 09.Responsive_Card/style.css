@@ -1,0 +1,35 @@
+html{
+    font-size: 62.5%;
+}
+.card{
+    width: 30rem;
+    background-color: #B4A5A5;
+    color: #353535;
+    padding: 1.5rem;
+    border-radius: .4rem;
+}
+.card_image{
+    width: 100%;height: 20rem;
+    object-fit: cover;
+    border-radius: .4rem;
+}
+.card_information-title{
+    font-size: 3rem;
+}
+.card_iformation-description{
+    font-size: 1.4rem;
+}
+@media screen and (min-width: 34.375em) {
+    .card{
+        width: 60rem;
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+    .card_image{
+        flex:0 0 20rem;
+    }
+    .card_iformation-description{
+        font-size:1.6rem;
+    }
+} 

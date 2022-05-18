@@ -1,0 +1,65 @@
+.scene {
+    width: 310px; height: 200px;
+    position: relative;
+    overflow: hidden;
+}.scene img {
+    width: 100%;position: absolute;
+    object-fit: contain;
+    background-size: cover;
+   
+}
+.wave{
+    position: absolute;
+    background-repeat: repeat-x;
+    background-size: 125px;
+    width: 1000px;height: 60px;
+    bottom: -20px;left: -50px;
+    animation: wave 8s infinite linear;
+}
+.wave-paint{
+    background-image: url('./wave-paint.jpg');
+    background-repeat: no-repeat;
+}
+.wave-plain{
+    background-image: url('./wave-plain.jpg');
+    background-repeat: no-repeat;
+}
+.wave:nth-child(2){
+    bottom: 10px;left: -46%;
+    animation-duration: 7s;
+}
+.wave:nth-child(3){
+    bottom: 0;left: -58%;
+    animation-duration: 6s;
+}
+.wave:nth-child(5){
+    bottom: -10px;left: -62%;
+    animation-duration: 5s;
+}
+.lh{
+    width: 80px;height: 80px;
+    bottom: 15px;right: -70px;
+    transform-origin: bottom;
+    animation: lighthouse 4s infinite alternate ease-in-out;
+}
+@keyframes wave {
+    0%{
+        transform: rotate(0deg)
+        translateY(5px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)
+        trabslateY(5px) rotate(-360deg);
+    }
+}
+@keyframes lighthouse{
+    0%{
+      transform: translateX(5px)
+      rotate(10deg);
+    }
+
+    100%{
+         transform: translateX(-15px)
+         rotate(-10deg);
+    }
+}
