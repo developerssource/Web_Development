@@ -1,6 +1,7 @@
 # Web_Development
-- This repository contain beginner friendly projects of web development implemented by using HTML, CSS &amp; javascipt
-- if you are looking for contribution then you can contribute too fork this repo and create PR!
+ This repository contain beginner friendly projects of web development implemented by using HTML, CSS &amp; javascipt
+ if you are looking for contribution then you can contribute too fork this repo and create PR! <br>
+ The purpose of creating this repository is to learn web development by building projects and find all web development projects  at one place.
 
 | Index  | Projects | 
 |  :---: |  :--- |
@@ -16,6 +17,7 @@
 | 011  | Multi LAyer Animation  |
 | 012    |     Button Animation  |
 | 013  | Emoji Animation CSS  |
+
 
 
 
